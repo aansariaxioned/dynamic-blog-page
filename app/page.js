@@ -1,9 +1,11 @@
-import Image from "next/image";
+
+import Link from "next/link";
+import Navbar from "./component/Navbar";
 
 export default function Home() {
   return (
-    <div>
-      This is Home Page
+    <div className="pt-20">
+     This is Home Page
     </div>
   );
 }
